@@ -92,7 +92,7 @@ aside{
         background-position: center center;
         width: 50px;
         height: 50px;
-        background-image: url("../../Imagenes/iconos/whatsapp.png");
+        background-image: url(https://raw.githubusercontent.com/matias5804/vidyaCoder/main/Imagenes/iconos/whatsapp.png);
         background-color: #50b154;
         position: absolute;
         top: 0;
@@ -100,8 +100,9 @@ aside{
         border-radius: 100%;
         box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
     }  
+
     .fixed-whatsapp:hover{
-        scale: 1.2;
+        transform: scale(1.2);
         transition-duration: 0.4s;
     }
 }
