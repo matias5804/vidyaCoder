@@ -133,7 +133,7 @@
 
 /*comienzan los estilos de contacto (bootstrap)*/
 .bg-image {
-    background-image: url(/Imagenes/fotoContacto.jpg);
+    background-image: url(../../Imagenes/fotoContacto.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -147,38 +147,11 @@
     font-weight: 500;
 }
 
-.divfotoFormularioContacto{
-    height: 100%;
-}
-
-.divContactoImput{
-    display: flex;
-    flex-direction: column;
-    padding: 50px 10px;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-}
-
-.formularioContacto{
-    width: 230px;
-    color: $colorPri;
-    font-size: $font-size-xl;
-    padding: 20px 10px;
-    background-color: $colorTer;
-    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
-    border-radius: 3px 3px 3px 3px;
-    box-sizing: border-box;
-}
-
 .formulario__imput{
     width: 100%;
 }
 
-.fotoContacto{
-    max-width: 90%;
-    height: auto;
-}/*finalizan los estilos de contacto*/
+/*finalizan los estilos de contacto*/
 
 /*inicio de los estilos de lifestyle y nosotros */
 .divNota__masInfo{
