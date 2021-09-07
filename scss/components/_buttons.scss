@@ -1,0 +1,29 @@
+button {
+    font-size: 110%;
+    color:$colorPri;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    background-color: $colorSec;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color:$colorPri;
+    color:$colorTer;
+}
+
+.footer__btn{/*boton*/
+    text-decoration: none;
+    padding: 4px;
+    color:$colorPri;
+    font-weight: 500;/*ancho de le letra*/
+    background-color: $colorSec;
+    border-radius: 6px;
+}
+
+.footer__btn:hover{   
+    background-color:$colorPri;
+    color:$colorTer;
+}
